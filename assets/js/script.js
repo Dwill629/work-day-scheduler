@@ -1,4 +1,4 @@
-// varible to display todays current date //
+// varible to display todays current date 
 var currentDate = moment().format('dddd, MMM Do YYYY');
 $("#currentDay").html(currentDate);
 
@@ -41,7 +41,7 @@ $(document).ready(function () {
         })
     }
 
-    // to get anything saved in the local storage 
+    // to get anything saved from text area in the local storage 
     $("#hour8 .description").val(localStorage.getItem("hour8"));
     $("#hour9 .description").val(localStorage.getItem("hour9"));
     $("#hour10 .description").val(localStorage.getItem("hour10"));
@@ -53,6 +53,7 @@ $(document).ready(function () {
     $("#hour16 .description").val(localStorage.getItem("hour16"));
     $("#hour17 .description").val(localStorage.getItem("hour17"));
 
+    //calling the time tracker function
     timeTracker();
 
 })

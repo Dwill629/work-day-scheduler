@@ -70,7 +70,7 @@ textarea {
     transition: all .3s ease-in-out;
 }
 
-/* This will be applied on any screen 768px and bellow */
+/* This will be applied on any screen 768px and below */
 @media screen and (max-width: 768px), screen and (max-width: 575px) {
   .row {
     height: auto;
